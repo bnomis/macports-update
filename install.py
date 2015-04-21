@@ -24,7 +24,7 @@ def launchctl_load(path):
         p.wait()
 
 def install():
-    pwd = os.path.dirname(__file__)
+    pwd = os.path.abspath(os.path.dirname(__file__))
     fn = 'org.macports.update.plist'
     src = os.path.join(pwd, fn)
     destdir = '/Library/LaunchDaemons'
