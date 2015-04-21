@@ -18,7 +18,7 @@ By default the scripts assumes the following:
 * Logging is to `/var/root/logs/macports.log`
 * Update time is 1:10AM
 
-If these assumptions do not match with your needs you'll need to edit the `macports.py` and `org.macports.update.plist` files
+If these assumptions do not match with your needs you'll need to edit the `macports.py` and `org.macports.update.plist` files.
 
 ## Install
 
