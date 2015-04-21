@@ -76,7 +76,7 @@ def main(argv):
     options = parser.parse_args(argv)
 
     macports_update(options)
-
+    return 0
 
 def run():
     sys.exit(main(sys.argv[1:]))
