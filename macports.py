@@ -51,7 +51,7 @@ def macports_update(options):
     run_port(options, 'upgrade outdated')
     run_port(options, 'uninstall inactive')
 
-    write_log(options, 'Starting ended %s' % datetime.datetime.now())
+    write_log(options, 'Ending update %s' % datetime.datetime.now())
     write_log(options, '------------\n')
 
 
