@@ -23,11 +23,13 @@ def launchctl_unload(path):
         p.wait()
         
 def uninstall():
-    launchctl_unload()
     
     fn = 'org.macports.update.plist'
     destdir = '/Library/LaunchDaemons'
     dest = os.path.join(destdir, fn)
+    
+    launchctl_unload(dest)
+    
     try:
         os.remove(dest)
     except Exception as e:
