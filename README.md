@@ -14,9 +14,9 @@ Now your macports are always up to date.
 
 By default the scripts assumes the following:
 
-* The repository is cloned in to `/var/root/src`
-* Logging is to `/var/root/logs/macports.log`
-* Update time is 1:10AM
+* The repository is cloned in to `/var/root/src`.
+* Logging is to `/var/root/logs/macports.log`.
+* Update time is 1:10AM.
 
 If these assumptions do not match with your needs you'll need to edit the `macports.py` and `org.macports.update.plist` files.
 
@@ -26,10 +26,10 @@ The script needs to be run as root, so become root before installing.
 
 1. Clone this repository.
 2. If needed, edit the `macports.py` and `org.macports.update.plist` files to suit. (See above.)
-3. Run the `install.py` script
+3. Run the `install.py` script.
 
 ## Uninstall
 
-1. Run the `uninstall.py` script
+1. Run the `uninstall.py` script.
 
 
