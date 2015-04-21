@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>org.macports.update</string>
+	<key>ServiceDescription</key>
+	<string>Update macports.</string>
+	<key>WorkingDirectory</key>
+	<string>/var/root/src/macports-update</string>
+	<key>ProgramArguments</key>
+    <array>
+	    <string>/var/root/src/macports-update/macports.py</string>
+    </array>
+    <key>StartCalendarInterval</key>
+    <dict>
+        <key>Hour</key>
+        <integer>1</integer>
+        <key>Minute</key>
+        <integer>10</integer>
+    </dict>
+    <key>StandardOutPath</key>
+    <string>/var/root/logs/macports-stdout.txt</string>
+    <key>StandardErrorPath</key>
+    <string>/var/root/logs/macports-stderr.txt</string>
+    <key>Debug</key>
+    <true/>
+    <key>UserName</key>
+    <string>root</string>
+</dict>
+</plist>
+
+
