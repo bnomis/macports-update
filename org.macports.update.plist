@@ -4,8 +4,6 @@
 <dict>
 	<key>Label</key>
 	<string>org.macports.update</string>
-	<key>ServiceDescription</key>
-	<string>Update macports.</string>
 	<key>WorkingDirectory</key>
 	<string>/var/root/src/macports-update</string>
 	<key>ProgramArguments</key>
@@ -23,8 +21,6 @@
     <string>/var/root/logs/macports-stdout.txt</string>
     <key>StandardErrorPath</key>
     <string>/var/root/logs/macports-stderr.txt</string>
-    <key>Debug</key>
-    <true/>
     <key>UserName</key>
     <string>root</string>
 </dict>
